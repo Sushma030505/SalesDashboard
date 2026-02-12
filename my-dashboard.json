@@ -1,0 +1,36 @@
+{
+  "dashboard": {
+    "title": "🚀 Business Insights Dashboard",
+    "createdBy": "Your Name",
+    "date": "2026",
+    "visuals": [
+      {
+        "name": "Sales KPI",
+        "type": "card",
+        "measure": "Total Sales",
+        "position": "top-left"
+      },
+      {
+        "name": "Profit KPI", 
+        "type": "card",
+        "measure": "Profit Margin %",
+        "position": "top-right"
+      },
+      {
+        "name": "Sales Trend",
+        "type": "line-chart",
+        "xAxis": "Date",
+        "yAxis": "Total Sales",
+        "position": "center"
+      },
+      {
+        "name": "Top Products",
+        "type": "bar-chart", 
+        "xAxis": "Product",
+        "yAxis": "Total Sales",
+        "position": "bottom"
+      }
+    ],
+    "filters": ["Region", "Customer", "Date"]
+  }
+}

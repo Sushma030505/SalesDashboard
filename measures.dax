@@ -1,0 +1,15 @@
+// 🔥 TOTAL MONEY FROM SALES
+Total Sales = SUM(Sales[Amount])
+
+// 🔥 TOTAL PROFIT MADE  
+Total Profit = SUM(Sales[Profit])
+
+// 🔥 PROFIT PERCENTAGE
+Profit Margin % = DIVIDE([Total Profit], [Total Sales], 0)
+
+// 🔥 HOW MANY DIFFERENT CUSTOMERS
+Customer Count = DISTINCTCOUNT(Sales[Customer])
+
+// 🔥 AVERAGE MONEY PER ORDER
+Average Order Value = 
+DIVIDE([Total Sales], DISTINCTCOUNT(Sales[OrderID]), 0)
